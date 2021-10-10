@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+
+
+.cell{
+    height: 150px;
+    width: 150px;
+    background: black;
+    font-size: 100px;
+    font-weight: 900;
+    
+}
+
+.green{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e626, 0 0 40px #00e626, 0 0 50px #00e626, 0 0 60px #00e626, 0 0 70px #00e626;
+}
+
+.pink{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+
+table{
+    background: radial-gradient(rgb(233, 14, 233), rgb(50, 146, 12), red, rgb(233, 14, 233), rgb(50, 146, 12), red, rgb(233, 14, 233), rgb(50, 146, 12), red, rgb(233, 14, 233), rgb(50, 146, 12), red, rgb(233, 14, 233), rgb(50, 146, 12), red, rgb(233, 14, 233), rgb(50, 146, 12), red);
+    text-align: center;
+    padding: 3px;
+    margin: auto;
+    box-shadow: 0 0 25px 5px rgb(127, 231, 191), 0 0 10px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title span{
+    padding: 33px;
+}
