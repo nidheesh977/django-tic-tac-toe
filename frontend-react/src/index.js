@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import Game from './components/game'
+import RoomName from "./components/room_name"
 
 ReactDOM.render(
   <Router>
     <React.StrictMode>
       <Switch>
-        <Route path = "/" component = {Game} />
+        <Route path exact = "/" component = {RoomName} />
+        <Route path = "/game/:room_name" component = {Game} />
       </Switch>
     </React.StrictMode>
   </Router>,

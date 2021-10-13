@@ -1,0 +1,20 @@
+input{
+    height : 50px;
+    width: 70%;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#main-container{
+    font-size : 30px
+}
+
+button{
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: cursive;
+}

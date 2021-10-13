@@ -3,13 +3,12 @@ from .models import Room
 
 
 class RoomSerializer(serializers.ModelSerializer):
-
     def create(self, validated_data):
         request = self.context.get("request")
-
+        print(request.user)
         room = Room()
-        room.player1 = validated_data["player1"]
-        room.player2 = validated_data["player2"]
+        room.player1 = request.user
+        room.player2 = request.user
 
         room.save()
 
@@ -17,4 +16,4 @@ class RoomSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Room
-        fields = "__all__"
+        fields = ""
